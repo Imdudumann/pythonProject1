@@ -1,0 +1,7 @@
+frase = str(input('Digite uma frase: '))
+fraseVogal = frase.count('a')
+print('A letra a aparece:',fraseVogal)
+frasePrimeiraletra = frase.find('a')
+print('A letra A aparece no indice:',frasePrimeiraletra,'a primeira vez')
+fraseUltima = frase.rfind('a')
+print(fraseUltima)
